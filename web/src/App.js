@@ -28,12 +28,7 @@ function App() {
 
         <section className="page-section text-white mb-0 py-4" id="skills">
             <div className="container">
-                <h2 className="page-section-heading text-center text-uppercase text-white">Skills</h2>
-                <div className="divider-custom divider-light">
-                    <div className="divider-custom-line"></div>
-                    <div className="divider-custom-icon"><i className="fa fa-code"></i></div>
-                    <div className="divider-custom-line"></div>
-                </div>
+                <h2 className="text-start fst-italic text-uppercase text-white">Skills</h2>
 
                 <div className="d-flex justify-content-evenly border-secondary ms-5 me-5 py-4 px-0">
                     <i className="fa-brands fa-html5 fa-5x me-2" style={{color: "#FFF"}}></i>
@@ -50,12 +45,8 @@ function App() {
 
         <section className="page-section portfolio" id="portfolio">
             <div className="container">
-                <h2 className="page-section-heading text-center text-uppercase text-white mb-0">Portfolio</h2>
-                <div className="divider-custom divider-light">
-                    <div className="divider-custom-line"></div>
-                    <div className="divider-custom-icon"><i className="fa fa-code"></i></div>
-                    <div className="divider-custom-line"></div>
-                </div>
+                <h2 className="text-start fst-italic text-uppercase text-white mb-4">Portfolio</h2>
+
                 <div className="row justify-content-center">
 
                     <div className="col-md-6 col-lg-4 mb-5">
