@@ -1,12 +1,11 @@
-import main from './main.jpg';
+import './App.css';
 
 function App() {
   return (
     <div className="App" id="page-top">
 
-        <nav className="navbar navbar-expand-lg bg-dark bg-gradient text-uppercase fixed-top border-bottom border-dark" id="mainNav">
+        <nav className="navbar navbar-expand-lg text-uppercase fixed-top py-0" id="mainNav">
             <div className="container">
-                <a className="navbar-brand" href="#page-top">Return to Top</a>
                 <button className="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i className="fas fa-bars"></i>
@@ -20,31 +19,36 @@ function App() {
             </div>
         </nav>
 
-        <header className="masthead bg-primary text-white text-center" style={{"backgroundImage": `url(${main})`}}>
+        <header className="masthead text-white text-center">
             <div className="container d-flex align-items-end flex-column">
                 <h1 className="mb-0 border-bottom border-dark">Sebastian Covarrubias</h1>
                 <p className="masthead-subheading font-weight-light mb-0">Web Developer - Software Engineer</p>
             </div>
         </header>
 
-        <section className="page-section bg-primary bg-gradient text-secondary mb-0" id="skills">
+        <section className="page-section text-white mb-0 py-4" id="skills">
             <div className="container">
-                <h2 className="page-section-heading text-center text-uppercase text-secondary">Skills</h2>
+                <h2 className="page-section-heading text-center text-uppercase text-white">Skills</h2>
+                <div className="divider-custom divider-light">
+                    <div className="divider-custom-line"></div>
+                    <div className="divider-custom-icon"><i className="fa fa-code"></i></div>
+                    <div className="divider-custom-line"></div>
+                </div>
 
-                <div className="d-flex justify-content-evenly border-bottom border-secondary ms-5 me-5 py-4 px-0">
-                    <i className="fa-brands fa-html5 fa-5x me-2" style={{color: "#222"}}></i>
-                    <i className="fa-brands fa-css3-alt fa-5x me-2" style={{color: "#222"}}></i>
-                    <i className="fa-brands fa-js-square fa-5x me-2" style={{color: "#222"}}></i>        
-                    <i className="fa-brands fa-node-js fa-5x me-2" style={{color: "#222"}}></i>
-                    <i className="fa-brands fa-react fa-5x me-2" style={{color: "#222"}}></i>
-                    <i className="fa-brands fa-npm fa-5x me-2" style={{color: "#222"}}></i>
-                    <i className="fa-brands fa-git-square fa-5x me-2" style={{color: "#222"}}></i>
+                <div className="d-flex justify-content-evenly border-secondary ms-5 me-5 py-4 px-0">
+                    <i className="fa-brands fa-html5 fa-5x me-2" style={{color: "#FFF"}}></i>
+                    <i className="fa-brands fa-css3-alt fa-5x me-2" style={{color: "#FFF"}}></i>
+                    <i className="fa-brands fa-js-square fa-5x me-2" style={{color: "#FFF"}}></i>        
+                    <i className="fa-brands fa-node-js fa-5x me-2" style={{color: "#FFF"}}></i>
+                    <i className="fa-brands fa-react fa-5x me-2" style={{color: "#FFF"}}></i>
+                    <i className="fa-brands fa-npm fa-5x me-2" style={{color: "#FFF"}}></i>
+                    <i className="fa-brands fa-git-square fa-5x me-2" style={{color: "#FFF"}}></i>
                 </div>
 
             </div>
         </section>
 
-        <section className="page-section portfolio bg-black bg-gradient border-top border-dark" id="portfolio">
+        <section className="page-section portfolio" id="portfolio">
             <div className="container">
                 <h2 className="page-section-heading text-center text-uppercase text-white mb-0">Portfolio</h2>
                 <div className="divider-custom divider-light">
