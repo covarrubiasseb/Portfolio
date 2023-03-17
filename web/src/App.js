@@ -3,7 +3,8 @@ import main from './main.jpg';
 function App() {
   return (
     <div className="App" id="page-top">
-        <nav className="navbar navbar-expand-lg bg-dark bg-gradient text-uppercase fixed-top" id="mainNav">
+
+        <nav className="navbar navbar-expand-lg bg-dark bg-gradient text-uppercase fixed-top border-bottom border-dark" id="mainNav">
             <div className="container">
                 <a className="navbar-brand" href="#page-top">Return to Top</a>
                 <button className="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -12,9 +13,8 @@ function App() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarResponsive">
                     <ul className="navbar-nav ms-auto">
+                        <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded" href="#skills">Skills</a></li>
                         <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
-                        <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
-                        <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -27,7 +27,24 @@ function App() {
             </div>
         </header>
 
-        <section className="page-section portfolio bg-black bg-gradient" id="portfolio">
+        <section className="page-section bg-primary bg-gradient text-secondary mb-0" id="skills">
+            <div className="container">
+                <h2 className="page-section-heading text-center text-uppercase text-secondary">Skills</h2>
+
+                <div className="d-flex justify-content-evenly border-bottom border-secondary ms-5 me-5 py-4 px-0">
+                    <i className="fa-brands fa-html5 fa-5x me-2" style={{color: "#222"}}></i>
+                    <i className="fa-brands fa-css3-alt fa-5x me-2" style={{color: "#222"}}></i>
+                    <i className="fa-brands fa-js-square fa-5x me-2" style={{color: "#222"}}></i>        
+                    <i className="fa-brands fa-node-js fa-5x me-2" style={{color: "#222"}}></i>
+                    <i className="fa-brands fa-react fa-5x me-2" style={{color: "#222"}}></i>
+                    <i className="fa-brands fa-npm fa-5x me-2" style={{color: "#222"}}></i>
+                    <i className="fa-brands fa-git-square fa-5x me-2" style={{color: "#222"}}></i>
+                </div>
+
+            </div>
+        </section>
+
+        <section className="page-section portfolio bg-black bg-gradient border-top border-dark" id="portfolio">
             <div className="container">
                 <h2 className="page-section-heading text-center text-uppercase text-white mb-0">Portfolio</h2>
                 <div className="divider-custom divider-light">
@@ -87,105 +104,11 @@ function App() {
                 </div>
             </div>
         </section>
-        <section className="page-section bg-primary text-white mb-0" id="about">
-            <div className="container">
-                <h2 className="page-section-heading text-center text-uppercase text-white">About</h2>
-                <div className="divider-custom divider-light">
-                    <div className="divider-custom-line"></div>
-                    <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
-                    <div className="divider-custom-line"></div>
-                </div>
-                <div className="row">
-                    <div className="col-lg-4 ms-auto"><p className="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
-                    <div className="col-lg-4 me-auto"><p className="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
-                </div>
-                <div className="text-center mt-4">
-                    <a className="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
-                        <i className="fas fa-download me-2"></i>
-                        Free Download!
-                    </a>
-                </div>
-            </div>
-        </section>
-        <section className="page-section" id="contact">
-            <div className="container">
-                <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
-                <div className="divider-custom">
-                    <div className="divider-custom-line"></div>
-                    <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
-                    <div className="divider-custom-line"></div>
-                </div>
-                <div className="row justify-content-center">
-                    <div className="col-lg-8 col-xl-7">
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <div className="form-floating mb-3">
-                                <input className="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                <label htmlFor="name">Full name</label>
-                                <div className="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                            </div>
-                            <div className="form-floating mb-3">
-                                <input className="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                <label htmlFor="email">Email address</label>
-                                <div className="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div className="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                            </div>
-                            <div className="form-floating mb-3">
-                                <input className="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                <label htmlFor="phone">Phone number</label>
-                                <div className="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
-                            <div className="form-floating mb-3">
-                                <textarea className="form-control" id="message" type="text" placeholder="Enter your message here..." style={{height: "10rem"}} data-sb-validations="required"></textarea>
-                                <label htmlFor="message">Message</label>
-                                <div className="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                            </div>
-                            <div className="d-none" id="submitSuccessMessage">
-                                <div className="text-center mb-3">
-                                    <div className="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                </div>
-                            </div>
-                            <div className="d-none" id="submitErrorMessage"><div className="text-center text-danger mb-3">Error sending message!</div></div>
-                            <button className="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <footer className="footer text-center">
-            <div className="container">
-                <div className="row">
-                    <div className="col-lg-4 mb-5 mb-lg-0">
-                        <h4 className="text-uppercase mb-4">Location</h4>
-                        <p className="lead mb-0">
-                            2215 John Daniel Drive
-                            <br />
-                            Clark, MO 65243
-                        </p>
-                    </div>
-                    <div className="col-lg-4 mb-5 mb-lg-0">
-                        <h4 className="text-uppercase mb-4">Around the Web</h4>
-                        <a className="btn btn-outline-light btn-social mx-1" href="#!"><i className="fab fa-fw fa-facebook-f"></i></a>
-                        <a className="btn btn-outline-light btn-social mx-1" href="#!"><i className="fab fa-fw fa-twitter"></i></a>
-                        <a className="btn btn-outline-light btn-social mx-1" href="#!"><i className="fab fa-fw fa-linkedin-in"></i></a>
-                        <a className="btn btn-outline-light btn-social mx-1" href="#!"><i className="fab fa-fw fa-dribbble"></i></a>
-                    </div>
-                    <div className="col-lg-4">
-                        <h4 className="text-uppercase mb-4">About Freelancer</h4>
-                        <p className="lead mb-0">
-                            Freelance is a free to use, MIT licensed Bootstrap theme created by
-                            <a href="http://startbootstrap.com">Start Bootstrap</a>
-                            .
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </footer>
+
         <div className="copyright py-4 text-center text-white">
             <div className="container"><small>Copyright &copy; Your Website 2022</small></div>
         </div>
+
         <div className="portfolio-modal modal fade" id="portfolioModal1" tabIndex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
             <div className="modal-dialog modal-xl">
                 <div className="modal-content">
@@ -213,6 +136,7 @@ function App() {
                 </div>
             </div>
         </div>
+
         <div className="portfolio-modal modal fade" id="portfolioModal2" tabIndex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
             <div className="modal-dialog modal-xl">
                 <div className="modal-content">
@@ -240,6 +164,7 @@ function App() {
                 </div>
             </div>
         </div>
+
         <div className="portfolio-modal modal fade" id="portfolioModal3" tabIndex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
             <div className="modal-dialog modal-xl">
                 <div className="modal-content">
@@ -267,6 +192,7 @@ function App() {
                 </div>
             </div>
         </div>
+
         <div className="portfolio-modal modal fade" id="portfolioModal4" tabIndex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
             <div className="modal-dialog modal-xl">
                 <div className="modal-content">
@@ -294,6 +220,7 @@ function App() {
                 </div>
             </div>
         </div>
+
         <div className="portfolio-modal modal fade" id="portfolioModal5" tabIndex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
             <div className="modal-dialog modal-xl">
                 <div className="modal-content">
@@ -321,6 +248,7 @@ function App() {
                 </div>
             </div>
         </div>
+
         <div className="portfolio-modal modal fade" id="portfolioModal6" tabIndex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
             <div className="modal-dialog modal-xl">
                 <div className="modal-content">
