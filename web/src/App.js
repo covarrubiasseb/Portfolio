@@ -1,12 +1,11 @@
 import main from './main.jpg';
-console.log(main)
 
 function App() {
   return (
     <div className="App" id="page-top">
-        <nav className="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <nav className="navbar navbar-expand-lg bg-dark bg-gradient text-uppercase fixed-top" id="mainNav">
             <div className="container">
-                <a className="navbar-brand" href="#page-top">Start Bootstrap</a>
+                <a className="navbar-brand" href="#page-top">Return to Top</a>
                 <button className="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i className="fas fa-bars"></i>
@@ -22,24 +21,18 @@ function App() {
         </nav>
 
         <header className="masthead bg-primary text-white text-center" style={{"backgroundImage": `url(${main})`}}>
-            <div className="container d-flex align-items-center flex-column">
-                <img className="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="..." />
-                <h1 className="masthead-heading mb-0">Sebastian Covarrubias</h1>
-                <div className="divider-custom divider-light">
-                    <div className="divider-custom-line"></div>
-                    <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
-                    <div className="divider-custom-line"></div>
-                </div>
+            <div className="container d-flex align-items-end flex-column">
+                <h1 className="mb-0 border-bottom border-dark">Sebastian Covarrubias</h1>
                 <p className="masthead-subheading font-weight-light mb-0">Web Developer - Software Engineer</p>
             </div>
         </header>
 
-        <section className="page-section portfolio" id="portfolio">
+        <section className="page-section portfolio bg-black bg-gradient" id="portfolio">
             <div className="container">
-                <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
-                <div className="divider-custom">
+                <h2 className="page-section-heading text-center text-uppercase text-white mb-0">Portfolio</h2>
+                <div className="divider-custom divider-light">
                     <div className="divider-custom-line"></div>
-                    <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
+                    <div className="divider-custom-icon"><i className="fa fa-code"></i></div>
                     <div className="divider-custom-line"></div>
                 </div>
                 <div className="row justify-content-center">
