@@ -104,7 +104,7 @@ function App() {
             </div>
         </section>
 
-        <div className="copyright py-4 text-center text-white">
+        <div className="py-4 text-center text-white">
             <div className="container"><small>Copyright &copy; Your Website 2022</small></div>
         </div>
 
