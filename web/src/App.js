@@ -56,7 +56,7 @@ function App() {
                             </div>
                             <div className="card shadow bg-transparent border-0 text-white">
                                 <img className="img-fluid" src="assets/img/portfolio/InProgress.jpg" alt="..." style={{width: "480px", height: "296px"}} />
-                                <div className="card-body">
+                                <div className="card-body text-center">
                                     <h5 className="card-title">In Progress</h5>
                                     <p className="card-text">
                                         Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -73,7 +73,7 @@ function App() {
                             </div>
                             <div className="card shadow bg-transparent border-0 text-white">
                                 <img className="img-fluid" src="assets/img/portfolio/TicketDesk.png" alt="..." style={{width: "480px", height: "296px"}} />
-                                <div className="card-body">
+                                <div className="card-body text-center">
                                     <h5 className="card-title">Ticket Desk</h5>
                                     <p className="card-text">
                                         Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -90,7 +90,7 @@ function App() {
                             </div>
                             <div className="card shadow bg-transparent border-0 text-white">
                                 <img className="img-fluid" src="assets/img/portfolio/SSF2X.png" alt="..."style={{width: "480px", height: "296px"}}  />
-                                <div className="card-body">
+                                <div className="card-body text-center">
                                     <h5 className="card-title">SSF2X Rankings</h5>
                                     <p className="card-text">
                                         Some quick example text to build on the card title and make up the bulk of the card's content.
