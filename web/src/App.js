@@ -59,7 +59,7 @@ function App() {
                                 <div className="card-body text-center">
                                     <h5 className="card-title">In Progress</h5>
                                     <p className="card-text">
-                                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                                        Website currently under development.
                                     </p>
                                 </div>
                             </div>
@@ -76,7 +76,7 @@ function App() {
                                 <div className="card-body text-center">
                                     <h5 className="card-title">Ticket Desk</h5>
                                     <p className="card-text">
-                                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                                        Full Stack Issue Tracker Web Application
                                     </p>
                                 </div>
                             </div>
@@ -93,7 +93,7 @@ function App() {
                                 <div className="card-body text-center">
                                     <h5 className="card-title">SSF2X Rankings</h5>
                                     <p className="card-text">
-                                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                                        Player ranking website for the Super Street Fighter II 2X arcade community in Japan. 
                                     </p>
                                 </div>
                             </div>
@@ -119,7 +119,7 @@ function App() {
                                     <h2 className="portfolio-modal-title text-primary text-uppercase mb-0 pb-4">In Progress</h2>
                                     
                                     <img className="img-fluid rounded mb-5" src="assets/img/portfolio/InProgress.jpg" alt="..." style={{width: "640px", height: "480px"}} />
-                                    <p className="mb-4 text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <p className="mb-4 text-light">This website is currently under development.</p>
                                     <button className="btn btn-primary" data-bs-dismiss="modal">
                                         <i className="fas fa-xmark fa-fw"></i>
                                         Close Window
@@ -142,8 +142,9 @@ function App() {
                                 <div className="col-lg-8">
                                     <h2 className="portfolio-modal-title text-primary text-uppercase mb-0 pb-4">Ticket Desk</h2>
                                     
-                                    <img className="img-fluid rounded mb-5" src="assets/img/portfolio/TicketDesk.png" alt="..." style={{width: "640px", height: "480px"}} />
-                                    <p className="mb-4 text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <img className="img-fluid rounded mb-4" src="assets/img/portfolio/TicketDesk.png" alt="..." style={{width: "640px", height: "480px"}} />
+                                    <a href="https://ticket-desk.herokuapp.com/" className="fst-italic">https://ticket-desk.herokuapp.com/</a>
+                                    <p className="mt-4 mb-4 text-light">Full stack Issue Tracker Web Application. Made with React, NodeJS, and MySQL.</p>
                                     <button className="btn btn-primary" data-bs-dismiss="modal">
                                         <i className="fas fa-xmark fa-fw"></i>
                                         Close Window
@@ -166,8 +167,9 @@ function App() {
                                 <div className="col-lg-8">
                                     <h2 className="portfolio-modal-title text-primary text-uppercase mb-0 pb-4">SSF2X Rankings</h2>
                                     
-                                    <img className="img-fluid rounded mb-5" src="assets/img/portfolio/SSF2X.png" alt="..." style={{width: "640px", height: "480px"}} />
-                                    <p className="mb-4 text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <img className="img-fluid rounded mb-4" src="assets/img/portfolio/SSF2X.png" alt="..." style={{width: "640px", height: "480px"}} />
+                                    <a href="https://steady-starlight-17e492.netlify.app/" className="fst-italic">https://steady-starlight-17e492.netlify.app/</a>
+                                    <p className="mt-4 mb-4 text-light">Player ranking website for the competitive Super Street Fighter II 2X arcade community in Japan. Rankings made using the Elo Rating System. Developed with React.</p>
                                     <button className="btn btn-primary" data-bs-dismiss="modal">
                                         <i className="fas fa-xmark fa-fw"></i>
                                         Close Window
