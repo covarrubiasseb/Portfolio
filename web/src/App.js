@@ -57,7 +57,7 @@ function App() {
                             <div className="card shadow bg-transparent border-0 text-white">
                                 <img className="img-fluid" src="assets/img/portfolio/InProgress.jpg" alt="..." style={{width: "480px", height: "296px"}} />
                                 <div className="card-body text-center">
-                                    <h5 className="card-title">In Progress</h5>
+                                    <h5 className="card-title">Starseed Leadership Group</h5>
                                     <p className="card-text">
                                         Website currently under development.
                                     </p>
@@ -119,7 +119,8 @@ function App() {
                                     <h2 className="portfolio-modal-title text-primary text-uppercase mb-0 pb-4">In Progress</h2>
                                     
                                     <img className="img-fluid rounded mb-5" src="assets/img/portfolio/InProgress.jpg" alt="..." style={{width: "640px", height: "480px"}} />
-                                    <p className="mb-4 text-light">This website is currently under development.</p>
+                                    <a href="https://bejewelled-faloodeh-0d08b7.netlify.app/" className="fst-italic">https://bejewelled-faloodeh-0d08b7.netlify.app/</a>
+                                    <p className="mt-4 mb-4 text-light">This website is currently under development.</p>
                                     <button className="btn btn-primary" data-bs-dismiss="modal">
                                         <i className="fas fa-xmark fa-fw"></i>
                                         Close Window
