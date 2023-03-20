@@ -22,7 +22,11 @@ function App() {
         <header className="masthead text-white text-center">
             <div className="container d-flex align-items-end flex-column">
                 <h1 className="mb-0 border-bottom border-dark">Sebastian Covarrubias</h1>
-                <p className="masthead-subheading font-weight-light mb-0">Web Developer - Software Engineer</p>
+                <p className="masthead-subheading font-weight-light mb-0">
+                    <a className="pe-2" href="https://github.com/covarrubiasseb"><i className="fa-brands fa-linkedin"></i></a>
+                    <a className="pe-2 me-2" href="https://www.linkedin.com/in/sebastian-covarrubias-042048244/"><i className="fa-brands fa-github"></i></a>
+                    Web Developer - Software Engineer
+                </p>
             </div>
         </header>
 
